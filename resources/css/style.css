@@ -28,6 +28,7 @@ header img{
 }
 header nav{
   display: inline-flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   padding-right: 20px;
 }
@@ -39,15 +40,16 @@ header a:link, a:visited{
 
 /*content*/
 .content{
-  height: 700px;
+  height: 2000px;
   position: relative;
   top: 61px;
   background-color: seashell;
 }
+.missi
 
 /*footer*/
 footer{
-  height: 300px;
+  height: 700px;
 }
 
 
