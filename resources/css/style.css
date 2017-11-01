@@ -1,0 +1,26 @@
+body{
+  width: 100%;
+  background-color: black;
+}
+
+/*header*/
+header{
+  display: flex;
+}
+
+/*content*/
+
+/*footer*/
+
+
+
+
+
+
+
+
+
+/*black borders*/
+body, header, div, footer {
+  border: solid red 1px;
+}
