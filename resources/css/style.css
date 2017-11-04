@@ -43,6 +43,8 @@ header a:link, a:visited{
 .content{
   position: relative;
   top: 61px;
+  max-width: 1200px;
+  margin: auto;
 }
 .flex-container{
   display: flex;
@@ -59,7 +61,7 @@ h2, h4{
 /*mission section*/
 .mission{
   height: 700px;
-  width: 1200px;
+  width: 100%;
   background-image: url(../images/img-mission-background.jpg);
   background-size: cover;
 }
@@ -70,8 +72,8 @@ h2, h4{
 }
 /*tea section*/
 .featured-tea{
-  height: 700px;
-  width: 1000px;
+  width: 100%;
+  padding: 70px 0;
 }
 .tea{
   padding: 10px;
@@ -85,15 +87,15 @@ h2, h4{
   display: block;
   font-weight: bold;
   text-align: center;
-  padding: 5px;
 }
 
 /*locations section*/
 .locations{
   height: 500px;
-  width: 1200px;
+  width: 100%;
+  padding-top: 70px;
   background-image: url(../images/img-locations-background.jpg);
-  background-size: 100% 130%;
+  background-size: cover;
 }
 
 /*footer*/
