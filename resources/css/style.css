@@ -46,13 +46,15 @@ header a:link, a:visited{
 }
 .flex-container{
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
   margin: auto;
+  justify-content: center;
+  align-content: center;
 }
 h2, h4{
   margin: 0;
   padding: 10px;
+  width: inherit;
 }
 /*mission section*/
 .mission{
@@ -61,7 +63,7 @@ h2, h4{
   background-image: url(../images/img-mission-background.jpg);
   background-size: cover;
 }
-.content{
+.mission-text{
   background-color: black;
   margin: auto;
   width: inherit;
@@ -69,8 +71,23 @@ h2, h4{
 /*tea section*/
 .featured-tea{
   height: 700px;
-  width: 1200px;
+  width: 1000px;
 }
+.tea{
+  padding: 10px;
+}
+.tea img{
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+}
+.tea span{
+  display: block;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px;
+}
+
 /*locations section*/
 .locations{
   height: 500px;
