@@ -40,16 +40,37 @@ header a:link, a:visited{
 
 /*content*/
 .content{
-  height: 2000px;
   position: relative;
   top: 61px;
-  background-color: seashell;
 }
-.missi
+.flex-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.mission{
+  height: 700px;
+  width: 1200px;
+  background-image: url(../images/img-mission-background.jpg);
+  background-size: cover;
+}
+.featured-tea{
+  height: 700px;
+  width: 1200px;
+}
+.locations{
+  height: 500px;
+  width: 1200px;
+  background-image: url(../images/img-locations-background.jpg);
+  background-size: 100% 130%;
+}
 
 /*footer*/
 footer{
   height: 700px;
+  position: relative;
+  top: 61px;
 }
 
 
