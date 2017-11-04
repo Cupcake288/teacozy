@@ -12,7 +12,7 @@ body{
 header{
   width: 100%;
   display: flex;
-  height:69px;
+  min-height:69px;
   justify-content: space-between;
   align-items: center;
   border-bottom: solid seashell 1px;
@@ -30,13 +30,15 @@ header img{
 header nav{
   display: inline-flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  padding-right: 20px;
+  justify-content:flex-end;
+  padding: 5px 20px;
+}
+header span{
+  padding: 5px 15px;
 }
 header a:link, a:visited{
   text-decoration: underline;
   color: inherit;
-  padding-left: 30px;
 }
 
 /*content*/
@@ -89,7 +91,6 @@ h2, h3, h4{
   font-weight: bold;
   text-align: center;
 }
-
 /*locations section*/
 p{
   margin: 20px 0;
@@ -108,12 +109,17 @@ p{
   padding: 10px;
   opacity: 1;
 }
-
+/*contact section*/
+.contact{
+  min-height: 200px;
+  margin: auto;
+}
 /*footer*/
 footer{
-  height: 700px;
   position: relative;
   top: 61px;
+  text-align: left;
+  padding-left: 20px;
 }
 
 
@@ -124,7 +130,7 @@ footer{
 
 
 
-/*black borders*/
+/*black borders
 body, div, footer {
   border: solid red 1px;
 }
