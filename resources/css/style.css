@@ -1,11 +1,12 @@
 /*overall*/
-html{
+body{
   width: 100%;
   background-color: black;
   font-family: Helvetica, sans-serif;
   font-size: 22px;
   color: seashell;
   opacity: 0.9;
+  text-align: center;
 }
 /*header*/
 header{
@@ -49,16 +50,28 @@ header a:link, a:visited{
   flex-wrap: wrap;
   margin: auto;
 }
+h2, h4{
+  margin: 0;
+  padding: 10px;
+}
+/*mission section*/
 .mission{
   height: 700px;
   width: 1200px;
   background-image: url(../images/img-mission-background.jpg);
   background-size: cover;
 }
+.content{
+  background-color: black;
+  margin: auto;
+  width: inherit;
+}
+/*tea section*/
 .featured-tea{
   height: 700px;
   width: 1200px;
 }
+/*locations section*/
 .locations{
   height: 500px;
   width: 1200px;
