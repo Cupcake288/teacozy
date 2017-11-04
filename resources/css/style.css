@@ -44,6 +44,7 @@ header a:link, a:visited{
   position: relative;
   top: 61px;
   max-width: 1200px;
+  height: auto;
   margin: auto;
 }
 .flex-container{
@@ -53,7 +54,7 @@ header a:link, a:visited{
   justify-content: center;
   align-content: center;
 }
-h2, h4{
+h2, h3, h4{
   margin: 0;
   padding: 10px;
   width: inherit;
@@ -90,12 +91,22 @@ h2, h4{
 }
 
 /*locations section*/
+p{
+  margin: 20px 0;
+}
 .locations{
-  height: 500px;
+  min-height: 500px;
   width: 100%;
-  padding-top: 70px;
+  padding: 70px 0;
   background-image: url(../images/img-locations-background.jpg);
   background-size: cover;
+}
+.location{
+  flex-basis: 280px;
+  margin: 5px 20px;
+  background-color: black;
+  padding: 10px;
+  opacity: 1;
 }
 
 /*footer*/
